@@ -13,6 +13,6 @@ router.use('/application',ApplicationRoute);
 router.use('/internship',intern);
 router.use('/job',job);
 router.use('/admin',admin);
-router.use('/login-history', browserAuthentication, deviceAndTimeBasedAccess, loginRoutes);
+router.use('/login-history', loginRoutes);
 
 module.exports=router;
